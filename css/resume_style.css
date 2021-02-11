@@ -1,0 +1,12 @@
+.internships,
+.projects {
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.internship-sub,
+.project-sub {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: normal;
+}

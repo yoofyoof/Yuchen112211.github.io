@@ -1,0 +1,23 @@
+{
+  "name": "yuchen112211.github.io",
+  "version": "1.0.0",
+  "description": "First Project: Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuchen112211/Yuchen112211.github.io.git"
+  },
+  "author": "Yuchen Xie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yuchen112211/Yuchen112211.github.io/issues"
+  },
+  "homepage": "https://github.com/Yuchen112211/Yuchen112211.github.io#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}

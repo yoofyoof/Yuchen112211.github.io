@@ -1,0 +1,42 @@
+{
+  "Internship": [
+    {
+      "Company": "Amazon",
+      "Job": "SDE Intern",
+      "Location": "Irvine, CA",
+      "Time": "Jun 1, 2020 to Aug 21, 2020"
+    },
+    {
+      "Company": "Tencent",
+      "Job": "Backend Intern",
+      "Location": "Shenzhen, China",
+      "Time": "Jun 6, 2018 to Sep 10, 2018"
+    },
+    {
+      "Company": "WizardQuant",
+      "Job": "Intern",
+      "Location": "Guangzhou, China",
+      "Time": "Feb 3, 2018 to May 11, 2018"
+    }
+  ],
+  "Projects": [
+    {
+      "Title": "Optimizing Virtual Machine Live Migration Edge Servers Based on Hybrid Memory",
+      "Area": "Edge Computing",
+      "Location": "Sun Yat-Sen University",
+      "Type": "Thesis"
+    },
+    {
+      "Title": "Categorizing Emails with K-means Approach",
+      "Area": "Machine Learning",
+      "Location": "Chinese Academy of Sciences",
+      "Type": "Academic project"
+    },
+    {
+      "Title": "Activities Recommending System with Native AWS",
+      "Area": "Serverless-API",
+      "Location": "API-World Conference",
+      "Type": "Hackathon"
+    }
+  ]
+}

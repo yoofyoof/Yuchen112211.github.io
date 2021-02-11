@@ -1,11 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+  <header>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
+    <meta name="Author" content="Yuchen Xie" />
+    <meta
+      name="Course"
+      content="Northeastern University - CS5610 Web Development"
+    />
+    <meta
+      name="Description"
+      content="The first project of the course: making a personal site."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <title>Yuchen's Personal Page</title>
+    <link rel="shortcut icon" href="" />
+    <link rel="stylesheet" href="css/style.css" />
+  </header>
   <body>
-    <div>Hello World!</div>
+    <div class="container">
+      <div class="row">
+        <div class="portrait col-4">
+          <img
+            src="./asset/myself.jpg"
+            alt="Avatar"
+            class="portrait"
+            title="If you allow the autoplay on your browser, there's a surprise."
+          />
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="name col-4">Yuchen Xie</div>
+          </div>
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="description col">
+              <b>·</b> I am an ordinary guy born in an ordinary city in China,
+              personally really like video games and watching TV.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="description col">
+              <b>·</b> Got my bachelor in CS and currently I'm enrolled in MSCS
+              General program. I love everything about server and database, if
+              you need a backend developer I'm your guy.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1" style="color: white">a</div>
+          </div>
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="contact-info-title col-4">Contact Info:</div>
+          </div>
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="contact-info-title col-2">TEL:</div>
+            <div class="contact-info col-5">408-250-1055 (don't call me)</div>
+          </div>
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="contact-info-title col-2">E-mail:</div>
+            <div class="contact-info col-4">xie.yuch@northeastern.edu</div>
+          </div>
+        </div>
+      </div>
+      <div class="row social">
+        <div class="col-1">
+          <a
+            href="https://github.com/Yuchen112211"
+            title="My Github Page"
+            target="_blank"
+          >
+            <img src="./asset/githubIcon.png" alt="Avatar" class="github" />
+          </a>
+        </div>
+        <div class="col-1">
+          <a
+            href="https://www.linkedin.com/in/yuchen-xie-376b52192/"
+            title="My Linkedin Page"
+            target="_blank"
+          >
+            <img src="./asset/linkedin.png" alt="Avatar" class="linkedin" />
+          </a>
+        </div>
+        <div class="col-1">
+          <a href="./web/resume.html" title="My Resume Page" target="_blank">
+            <img src="./asset/resume.png" alt="Avatar" class="resume" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container courses">
+      <div class="course-title row">
+        <div class="course-title col">Courses I've taken:</div>
+      </div>
+    </div>
+    <div class="container ongoing-courses">
+      <div class="ongoing-course row">
+        <div class="ongoing-course-title col">Courses I am taking</div>
+      </div>
+    </div>
+    <script src="./js/loadCourse.js"></script>
+    <div class="container links"></div>
   </body>
+  <footer>
+    <audio class="audio" src="audio/indihome.mp3" loop></audio>
+    <script src="./js/volume.js"></script>
+  </footer>
 </html>
