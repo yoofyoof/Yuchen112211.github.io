@@ -10,3 +10,8 @@
   margin-bottom: 1%;
   font-weight: normal;
 }
+
+.nav-link {
+  font-size: 20px;
+  font-style: italic;
+}

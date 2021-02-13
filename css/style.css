@@ -21,6 +21,11 @@ img {
   height: 40px;
 }
 
+.nav-link {
+  font-size: 20px;
+  font-style: italic;
+}
+
 .github {
   border-radius: 100%;
   width: 80px;
