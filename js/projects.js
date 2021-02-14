@@ -1,5 +1,3 @@
-let finalData = {};
-
 function parseInternship(internship) {
   let newRow = document.createElement("div");
   newRow.className = "internship row";
@@ -75,7 +73,7 @@ async function parseData() {
 
   let projectRow = document.getElementsByClassName("projects")[0];
   let projects = tmp.Projects;
-  for (var i = 0; i < projects.length; i++) {
+  for (i = 0; i < projects.length; i++) {
     let newRow = parseProject(projects[i]);
     projectRow.appendChild(newRow);
   }
