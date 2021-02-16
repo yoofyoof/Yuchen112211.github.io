@@ -10,6 +10,8 @@
 
 The Project is mainly just a simple website using nothing fancy, a little bootstrap with a little CSS and plain JavaScript. The website don't even have a background image, but this is the best I got for the moment, along with the studying in the future my frontend skills will improve.
 
+What a pleasant surprise opening your page!
+
 ## Project objective
 
 - Demonstarte personal information.
