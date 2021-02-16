@@ -53,3 +53,5 @@ function loadOngoingCourses() {
 
 loadCourses();
 loadOngoingCourses();
+
+very clean and clear js vanilla code
